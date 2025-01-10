@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iterative_label_refinement"
+version = "0.1"
+authors = [
+  { name="Yaowen Ye", email="elwin@connect.hku.hk" },
+]
+description = "Code for the paper *Iterative Label Refinement Matters More than Preference Optimization under Weak Supervision*"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/helloelwin/iterative-label-refinement"
+Issues = "https://github.com/helloelwin/iterative-label-refinement/issues"
