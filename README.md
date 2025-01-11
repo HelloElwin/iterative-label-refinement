@@ -137,7 +137,7 @@ The following is a breakdown of how the script runs SFT+ILR in the first round:
         ...
     ```
 
-4. Run DPO on feedback data.
+4. Run SFT on feedback data.
     ```bash
     python -m iterative_label_refinement.experiments.main 
         --ds_name=gsm8k \
@@ -191,7 +191,7 @@ The following is a breakdown of how the script runs SFT+DPO in the first round:
         ...
     ```
 
-4. Run SFT on new data
+4. Run DPO on new data
     ```bash
     python -m iterative_label_refinement.experiments.main 
         --ds_name=gsm8k \
