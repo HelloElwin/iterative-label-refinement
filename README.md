@@ -1,6 +1,6 @@
 # Iterative Label Refinement Matters More than Preference Optimization under Weak Supervision
 
-This repository contains code and data for the paper [Iterative Label Refinement Matters More than Preference Optimization under Weak Supervision](https://arxiv.org).
+This repository contains code and data for the paper [Iterative Label Refinement Matters More than Preference Optimization under Weak Supervision](https://arxiv.org/abs/2501.07886).
 
 
 ## Installation
@@ -223,11 +223,15 @@ We provide scripts for running SFT+ILR and SFT+DPO in two other settings in `scr
 ## Citation
 
 ```bibtex
-@article{ye2025iterative,
-  title={Iterative Label Refinement Matters More than Preference Optimization under Weak Supervision},
-  author={Ye, Yaowen and Laidlaw, Cassidy and Steinhardt, Jacob},
-  journal={arXiv preprint arXiv:?},
-  year={2025}
+@misc{ye2025iterative,
+  title={Iterative Label Refinement Matters More than Preference Optimization under Weak Supervision}, 
+  author={Yaowen Ye and Cassidy Laidlaw and Jacob Steinhardt},
+  year={2025},
+  eprint={2501.07886},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2501.07886}, 
+}
 }
 ```
 
