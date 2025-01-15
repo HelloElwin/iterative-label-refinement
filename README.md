@@ -232,7 +232,6 @@ We provide scripts for running SFT+ILR and SFT+DPO in two other settings in `scr
   primaryClass={cs.LG},
   url={https://arxiv.org/abs/2501.07886}, 
 }
-}
 ```
 
 
